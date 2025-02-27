@@ -1,10 +1,8 @@
 {
-  "name": "Davi",
+  "name": "Davi ",
   "lastName": "Alves",
-  "avatar": "profile.webp",
-
+  "avatar": "profile.png",
   "description": "Desenvolvedor Front-end, amante de boa música, games e esportes. Conheça o meu trabalho 👇🏽",
-
   "links": [
     {
       "text": "Github",
@@ -12,7 +10,7 @@
     },
     {
       "text": "Linkedin",
-      "href": "https://www.linkedin.com/in/davi-aalves/"
+      "href": "https://www.linkedin.com/in/daviaalves/"
     }
   ],
 
