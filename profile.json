@@ -1,0 +1,29 @@
+{
+  "name": "Davi",
+  "lastName": "Alves",
+  "avatar": "profile.webp",
+
+  "description": "Desenvolvedor Front-end, amante de boa música, games e esportes. Conheça o meu trabalho 👇🏽",
+
+  "links": [
+    {
+      "text": "Github",
+      "href": "https://github.com/davi-aalves"
+    },
+    {
+      "text": "Linkedin",
+      "href": "https://www.linkedin.com/in/davi-aalves/"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/davi.allves/"
+    },
+    {
+      "text": "Twitter",
+      "href": "https://twitter.com/davi_aalves"
+    }
+  ]
+}
