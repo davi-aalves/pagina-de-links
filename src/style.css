@@ -193,15 +193,15 @@
   }
 
   .card-header__name {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .card-header__last-name {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .card-header__description {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .card__links {
@@ -222,8 +222,8 @@
   }
 
   .card__social-links img {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
   }
 
   #toggle-theme {
@@ -271,8 +271,8 @@
   }
 
   .card__social-links img {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
   }
 
   #toggle-theme {
