@@ -6,6 +6,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background: url("/public/assets/background.webp");
+  --card-bg: rgba(7, 34, 61, 0.8);
+  --text-color: white;
+  --primary: #54a1bf;
+  --hover: #f29bab;
+}
+
+.light-mode {
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --text-color: #042940;
+  --primary: #f23d6d;
+  --hover: #0b2d59;
+}
+
 .app {
   display: flex;
   justify-content: center;
@@ -17,16 +32,18 @@
 }
 
 .background {
-  background-image: url("/public/assets/background.webp");
+  background-image: var(--background);
   background-size: cover;
   background-position: center;
+  transition: background 0.3s ease-in-out;
 }
 
 .card {
   border-radius: 19px;
   border: none;
-  background: rgba(7, 34, 61, 0.8);
-  color: white;
+  background: var(--card-bg);
+  color: var(--text-color);
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
   padding: 52px 10px;
   width: 530px;
   text-align: center;
@@ -51,6 +68,11 @@
   width: 142px;
 }
 
+.card-header__name,
+.card-header__last-name {
+  color: var(--primary);
+}
+
 .card-header__name {
   color: #54a1bf;
   font-size: 36px;
@@ -60,6 +82,10 @@
 .card-header__last-name {
   color: #54a1bf;
   font-weight: 400;
+}
+
+.card-header__description {
+  font-size: 18px;
 }
 
 .card__links {
@@ -73,12 +99,17 @@
 
 .card__links li {
   border-radius: 17px;
-  background: #54a1bf;
+  background: var(--primary);
+  transition: background 0.3s ease-in-out;
 
   list-style: none;
   width: 95%;
   display: flex;
   justify-content: center;
+}
+
+.card__links li:hover {
+  background: var(--hover);
 }
 
 .card__links li a {
@@ -104,6 +135,8 @@
 .card__social-links img {
   width: 46px;
   height: 46px;
+  filter: invert(60%) sepia(76%) saturate(450%) hue-rotate(169deg)
+    brightness(90%) contrast(86%);
 }
 
 @media (max-width: 516px) {
