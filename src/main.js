@@ -47,3 +47,19 @@ window.onload = function () {
     socialLinks.appendChild(li);
   });
 };
+
+const themeToggleButton = document.getElementById("toggle-theme");
+
+if (localStorage.getItem("theme") === "light") {
+  document.body.classList.add("light-mode");
+}
+
+themeToggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+
+  if (document.body.classList.contains("light-mode")) {
+    localStorage.setItem("theme", "light");
+  } else {
+    localStorage.setItem("theme", "dark");
+  }
+});

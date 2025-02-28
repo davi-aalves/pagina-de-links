@@ -15,7 +15,7 @@
 }
 
 .light-mode {
-  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-bg: rgba(255, 280, 255, 0.9);
   --text-color: #042940;
   --primary: #f23d6d;
   --hover: #0b2d59;
