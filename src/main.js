@@ -38,7 +38,7 @@ window.onload = function () {
     const img = document.createElement("img");
 
     img.src = socialLink.icon;
-    img.alt = socialLink.text;
+    img.alt = socialLink.text + " logo";
     a.href = socialLink.href;
     a.target = "_blank";
 

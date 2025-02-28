@@ -11,17 +11,24 @@
     {
       "text": "Linkedin",
       "href": "https://www.linkedin.com/in/daviaalves/"
+    },
+    {
+      "text": "Fale comigo",
+      "href": "https://wa.me/qr/J352GNLS2R23E1"
     }
   ],
 
   "socialLinks": [
     {
       "text": "Instagram",
-      "href": "https://www.instagram.com/davi.allves/"
+      "href": "https://www.instagram.com/davi.allves/",
+      "icon": "instagram.svg"
     },
     {
-      "text": "Twitter",
-      "href": "https://twitter.com/davi_aalves"
+      "text": "Gmail",
+      "href": "https://twitter.com/davi_aalves",
+      "icon": "mail.svg"
+
     }
   ]
 }
