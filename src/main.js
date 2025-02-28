@@ -48,13 +48,13 @@ window.onload = function () {
   });
 };
 
-const themeToggleButton = document.getElementById("toggle-theme");
+const themeToggle = document.getElementById("toggle-theme");
 
 if (localStorage.getItem("theme") === "light") {
   document.body.classList.add("light-mode");
 }
 
-themeToggleButton.addEventListener("click", () => {
+themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
 
   if (document.body.classList.contains("light-mode")) {

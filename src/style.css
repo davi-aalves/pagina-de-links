@@ -21,6 +21,38 @@
   --hover: #0b2d59;
 }
 
+#toggle-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 280, 255, 0.2);
+  padding: 10px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+}
+
+#icon-moon {
+  display: none;
+}
+
+.light-mode #icon-sun {
+  display: none;
+}
+
+.light-mode #icon-moon {
+  display: block;
+}
+
+#toggle-theme:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
 .app {
   display: flex;
   justify-content: center;
