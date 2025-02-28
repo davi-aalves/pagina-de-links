@@ -182,14 +182,14 @@
   .card {
     height: 100%;
     width: 100%;
+    padding: 52px 0px;
     border-radius: 0;
-    padding: 40px 15px;
     gap: 40px;
   }
 
   .card-header__profile-image {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
   }
 
   .card-header__name {
@@ -204,6 +204,14 @@
     font-size: 16px;
   }
 
+  .card__links {
+    padding: 20px 0px;
+  }
+
+  .card__links li {
+    border-radius: 0px;
+  }
+
   .card__links li a {
     font-size: 20px;
     padding: 15px;
@@ -214,8 +222,8 @@
   }
 
   .card__social-links img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   #toggle-theme {
@@ -235,13 +243,6 @@
     height: 100%;
     width: 100%;
     border-radius: 0;
-    padding: 30px 10px;
-    gap: 30px;
-  }
-
-  .card-header__profile-image {
-    width: 100px;
-    height: 100px;
   }
 
   .card-header__name {
@@ -270,8 +271,8 @@
   }
 
   .card__social-links img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
   }
 
   #toggle-theme {
