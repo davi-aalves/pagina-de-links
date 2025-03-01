@@ -69,5 +69,5 @@ Este projeto é distribuído sob a [Licença MIT](https://opensource.org/license
 
 **Contato:**
 
-*   [Seu E-mail](mailto:daviih2000@gmail.com)
-*   [Seu LinkedIn](https://www.linkedin.com/in/daviaalves/)
+*   [Me mande um e-mail](mailto:daviih2000@gmail.com)
+*   [Bora se conectar no LinkedIn!](https://www.linkedin.com/in/daviaalves/)
